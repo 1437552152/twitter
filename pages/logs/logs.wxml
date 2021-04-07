@@ -1,0 +1,35 @@
+<!--logs.wxml-->
+<!-- <view class="container log-list">
+  <block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log.form}},{{log.resolution}}</text>
+  </block>
+</view> -->
+<view class="box">
+  <view class="item" wx:for="{{logs}}" wx:for-item="log">
+    <view class="head">
+      <h1>{{log.resolution}}</h1>
+      <view class="right">
+        <view><text>{{index==0?'极速':index==1?'清晰':'高清'}}</text>|
+          <image wx:if="{{index==0}}" src="../../static/one.png" style="width:30px;height:30px" />
+          <image wx:if="{{index==1}}" src="../../static/two.png" style="width:30px;height:30px" />
+          <image wx:if="{{index==2}}" src="../../static/three.png" style="width:30px;height:30px" />
+        </view>
+      </view>
+    </view>
+    <view class="body">
+      <view class="link">
+        <view>
+          <image src="../../static/download.png" />
+        </view>
+        <text bindtap="fzLink" data-url="{{log.url}}" data-type="1">复制链接</text>
+      </view>
+      <view class="link">
+        <view>
+          <image src="../../static/link.png" />
+        </view>
+        <text bindtap="fzLink" data-url="{{log.url}}" data-type="2">直接下载</text>
+      </view>
+    </view>
+
+  </view>
+</view>

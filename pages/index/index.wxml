@@ -1,0 +1,5 @@
+<view>
+  <textarea class="textarea" disabled placeholder="点击下方按钮，解析已复制的Twitter推文链接" value='{{value}}' placeholder-style="font-size:13px"/>
+  <button bindtap="jiexi" class="jiexi">粘贴并解析</button>
+  <view class="text">使用过程中，请关闭网络代理，防止解析失败</view>
+</view>

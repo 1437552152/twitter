@@ -1,0 +1,27 @@
+.textarea {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(100% - 20px);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.jiexi {
+  background-color: #5fa1e3;
+  color: #fff;
+  width: calc(100% - 20px)!important;
+  margin-left: 10px!important;
+  margin-right: 10px!important;
+  margin-top: 20px!important;
+  font-weight: 300;
+}
+
+.text {
+  font-size: 13px;
+  color: #999;
+  margin-top: 10px;
+  margin-left: 10px;
+}

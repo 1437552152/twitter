@@ -1,0 +1,46 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.body{
+  display: flex;
+  justify-content:space-evenly;
+}
+.link{
+  text-align: center;
+}
+
+.link image{
+  width:40px;
+  height: 40px;
+}
+.head{
+  display: flex;
+  justify-content:space-between
+}
+.box .item{
+  border: 1px solid #eee;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: calc(100% - 40px);
+  box-sizing: border-box;
+}
+.box .item .head{
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+}
+.box .body{
+  padding: 10px;
+}
+.right image{
+  vertical-align: middle;
+}
+.head h1{
+  font-weight: bold;
+}
